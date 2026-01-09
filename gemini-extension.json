@@ -1,8 +1,8 @@
 {
-  "name": "adk-docs-ext",
-  "version": "1.0.2",
+  "name": "tidb-docs-ext",
+  "version": "1.0.0",
   "mcpServers": {
-    "adk-docs-mcp": {
+    "tidb-docs-mcp": {
       "command": "uvx",
       "args": [
         "--from",
