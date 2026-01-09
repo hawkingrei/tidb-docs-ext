@@ -1,0 +1,21 @@
+{
+  "name": "adk-docs-ext",
+  "version": "1.0.2",
+  "mcpServers": {
+    "adk-docs-mcp": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mcpdoc",
+        "mcpdoc",
+        "--urls",
+        "https://raw.githubusercontent.com/hawkingrei/tidb-dev-prompt/refs/heads/main/llms.txt",
+        "--allowed-domains",
+        "*",
+        "--transport",
+        "stdio"
+      ]
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
